@@ -1,0 +1,19 @@
+{
+  "name": "terraport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --harmony-top-level-await index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1239.0",
+    "commander": "^9.4.1",
+    "execa": "^6.1.0",
+    "glob": "^8.0.3",
+    "glob-promise": "^5.0.0",
+    "hcl-to-json": "^0.1.1"
+  }
+}
